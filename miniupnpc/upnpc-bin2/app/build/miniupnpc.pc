@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: miniUPnPc
+Description: UPnP IGD client lightweight library
+URL: https://miniupnp.tuxfamily.org/
+Version: 2.2.5
+Libs: -L${libdir} -lminiupnpc
+Cflags: -I${includedir}

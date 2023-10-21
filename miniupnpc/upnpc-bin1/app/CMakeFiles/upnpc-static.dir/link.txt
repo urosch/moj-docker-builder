@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/upnpc-static.dir/src/upnpc.c.o -o upnpc-static  libminiupnpc.a 

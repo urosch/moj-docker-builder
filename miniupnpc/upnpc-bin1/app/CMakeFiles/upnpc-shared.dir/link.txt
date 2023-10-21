@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/upnpc-shared.dir/src/upnpc.c.o -o upnpc-shared  -Wl,-rpath,/app: libminiupnpc.so.2.2.5 

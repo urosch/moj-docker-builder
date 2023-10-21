@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/listdevices.dir/src/listdevices.c.o -o listdevices  -Wl,-rpath,/app: libminiupnpc.so.2.2.5 

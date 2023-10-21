@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/testupnpreplyparse.dir/src/testupnpreplyparse.c.o CMakeFiles/testupnpreplyparse.dir/src/minixml.c.o CMakeFiles/testupnpreplyparse.dir/src/upnpreplyparse.c.o -o testupnpreplyparse 

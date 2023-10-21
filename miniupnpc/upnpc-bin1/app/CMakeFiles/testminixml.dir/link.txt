@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/testminixml.dir/src/testminixml.c.o CMakeFiles/testminixml.dir/src/minixml.c.o CMakeFiles/testminixml.dir/src/igd_desc_parse.c.o -o testminixml 

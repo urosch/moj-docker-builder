@@ -1,0 +1,18 @@
+# Use a base image with the necessary build tools for your project
+FROM ubuntu:latest
+
+# Install necessary dependencies
+RUN apt-get update && apt-get install -y build-essential cmake git
+
+# Set the working directory
+WORKDIR /app
+
+# Copy your source code into the container
+COPY ./miniupnpc-2.2.5 /app
+
+# Build your project
+#RUN cmake . && make
+RUN #make install
+RUN make
+# Set the entry point for the container
+CMD ["cp", "-R", "/app", "/output"]

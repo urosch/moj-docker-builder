@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/minixmlvalid.dir/src/minixmlvalid.c.o CMakeFiles/minixmlvalid.dir/src/minixml.c.o -o minixmlvalid 

@@ -1,0 +1,23 @@
+# Use a base image with the necessary build tools for your project
+FROM ubuntu:latest
+
+# Install necessary dependencies
+RUN apt-get update && apt-get install -y build-essential cmake git
+
+# Set the working directory
+WORKDIR /app
+
+# Copy your source code into the container
+COPY . /app
+
+# Build your project
+RUN cmake . && cd /app && make
+#RUN make
+# Create the /app/bin/ directory
+#RUN mkdir -p /bins
+
+# Copy the built binary to the mounted volume
+#RUN cp -R * /bins
+
+# Set the entry point for the container
+CMD ["echo", "Build complete"]

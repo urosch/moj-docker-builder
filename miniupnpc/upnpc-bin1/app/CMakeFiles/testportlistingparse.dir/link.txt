@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/testportlistingparse.dir/src/testportlistingparse.c.o CMakeFiles/testportlistingparse.dir/src/minixml.c.o CMakeFiles/testportlistingparse.dir/src/portlistingparse.c.o -o testportlistingparse 
